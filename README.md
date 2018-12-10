@@ -30,11 +30,13 @@ We use 2 sources of data:
 * Comments Dataset [available here](https://mega.nz/#F!NtsCGTgD!urXdXLJ6yITYdWEdWN-H1w)
 * Threads Dataset scraped using Reddit API using [this code](/scraping/Scrape.ipynb)
 
-## Model Metrics
+## Models and Metrics
+
+We attempted linear and nonlinear regression models and compared their Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R<sup>2</sup> values for each model. The lowest MAE was around 8, which suggests that on average, the model is off by about 8 upvotes.
 
 <img src="/images/mae.png" width="600" height="400" />
 
-<img src="/images/mse.png" width="600" height="400" />
+<img src="/images/rmse.png" width="600" height="400" />
 
 <img src="/images/r2.png" width="600" height="400" />
 
