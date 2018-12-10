@@ -32,11 +32,11 @@ We use 2 sources of data:
 
 ## Model Metrics
 
-<img src="/images/mae.png" width="700" height="600" />
+<img src="/images/mae.png" width="700" height="500" />
 
-<img src="/images/mse.png" width="700" height="600" />
+<img src="/images/mse.png" width="700" height="500" />
 
-<img src="/images/r2.png" width="700" height="600" />
+<img src="/images/r2.png" width="700" height="500" />
 
 
 ## Reference Papers/Write-ups
