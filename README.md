@@ -32,7 +32,9 @@ We use 2 sources of data:
 
 ## Models and Metrics
 
-We attempted linear and nonlinear regression models and compared their Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R<sup>2</sup> values for each model. The lowest MAE was around 8, which suggests that on average, the model is off by about 8 upvotes.
+We attempted linear and nonlinear regression models and compared their Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R<sup>2</sup> values. The Random Forest had the lowest MAE, around 8, which suggests that on average, the model is off by about 8 upvotes.
+
+RMSE penalizes large errors more heavily. The magnitudes of RMSE among our models suggests that they have lots of large errors.
 
 <img src="/images/mae.png" width="600" height="400" />
 
