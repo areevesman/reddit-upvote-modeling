@@ -32,7 +32,7 @@ We use 2 sources of data:
 
 ## Model Metrics
 
-![Mean Absolute Error](/images/mae.png =250x250)
+![](/images/mae.png | width=250)
 
 
 ## Reference Papers/Write-ups
