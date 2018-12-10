@@ -1,9 +1,7 @@
 
-# MSAN 621 Final Project
+# Predicting Reddit Comment Upvotes
 
-Team: Data Explorers
-
-Team members: 
+Contributors: 
 
 * Adam Reevesman
 * Gokul Krishna Guruswamy
@@ -13,7 +11,7 @@ Team members:
 
 # Resources in this repository
 
-The code for this project is divided into several notebooks, each of which regards a part of the workflow that we went through. Both final versions and their [drafts](/drafts) are saved here for the purpose of future review.
+The code for this project is divided into several notebooks, each of which regards a part of the workflow.
 
 The finalized notebooks that combine into our entire work includes:
 
