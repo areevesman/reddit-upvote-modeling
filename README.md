@@ -32,7 +32,7 @@ We use 2 sources of data:
 
 ## Model Metrics
 
-![](/images/mae.png | width=250)
+![](/images/mae.png)
 
 
 ## Reference Papers/Write-ups
