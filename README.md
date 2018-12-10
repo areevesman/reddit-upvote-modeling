@@ -15,7 +15,7 @@ The code for this project is divided into several notebooks, each of which regar
 
 The finalized notebooks that combine into our entire work includes:
 
-* Step 1: [Extracting data](data_processing/extract_Data.ipynb) and [scraping extra data](scraping/Scrape.ipynb) 
+* Step 1: [Extracting data](data_processing/extract_Data.ipynb) and [scraping extra data](scraping/Scrape.ipynb) (reddit api keys needed)
 * Step 2: [Data processing and feature engineering](data_processing/data_processing.ipynb). At the end of this process, we arrive at this [list of final features](data_processing/features.md) which we used to fit our models.
 * Step 3: [Model fitting and model comparison](model_fitting/model_fitting.ipynb). In this notebook, we fitted different linear and non-linear models to the dataset, evaluate and compare their performance.
 
