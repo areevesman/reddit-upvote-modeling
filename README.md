@@ -17,11 +17,13 @@ The finalized notebooks that combine into our entire work includes:
 
 * Step 1: [Extracting data](data_processing/extract_Data.ipynb) and [scraping extra data](scraping/Scrape.ipynb) (reddit api keys needed)
 * Step 2: [Data processing and feature engineering](data_processing/data_processing.ipynb). At the end of this process, we arrive at this [list of final features](data_processing/features.md) which we used to fit our models.
-* Step 3: [Model fitting and model comparison](model_fitting/model_fitting.ipynb). In this notebook, we fitted different linear and non-linear models to the dataset, evaluate and compare their performance.
+* Step 3: [Model fitting and model comparison](model_fitting/model_fitting.ipynb). In this notebook, we fitted different linear and non-linear models to the dataset, evaluate and compare their performance. The models were originally fit on data that differed slightly from the data obtained after the included data processing notebook. Therefore, an [updated notebook](model_fitting/model_results_v3_data) is included to show the new results on some of the models using the updated dataset.
 
 ## Objective
 
-To predict how many __upvotes__ a comment will get, given the comment text, user history, sub-reddit and thread details.
+Original: To predict how many __upvotes__ a comment will get, given the comment text, user history, sub-reddit and thread details.
+
+Next Step: Improve current model performance.
 
 ## Data Source
 
