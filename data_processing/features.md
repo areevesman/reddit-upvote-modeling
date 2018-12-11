@@ -27,6 +27,8 @@
 
 - `time`: time comment was posted
 - `time_lapse`: time since first comment on thread
+- `hour_of_comment`: hour of day comment was posted
+- `weekday`: day of week comment was posted
 - `is_flair`: Whether or not there is flair text for the comment
 - `is_flair_css`: Whether or not there is a CSS class for the comment flair
 - `depth`: depth of comment in thread
@@ -67,6 +69,6 @@ Engineered from scraped data
 - `parent_cos_angle`: consine similarity between comment and its parent comment's embeddings
 - `title_cos_angle`: consine similarity between comment and its thread's title's embeddings
 
-### Added for Final Dataset
+### Benchmark v3 Feautures
 - `no_past_comments`: number of comments on thread before this comment was posted
 - `score_till_now`: score of thread at the time this comment was posted
